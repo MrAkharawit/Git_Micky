@@ -1,0 +1,22 @@
+@font-face {
+    font-family: supermarket;
+    src: url('../../font/supermarket.ttf');
+}
+body {
+	font-size: 15px;
+	font-family: supermarket;
+	font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: supermarket;
+}
+.skin-yellow-light .sidebar-menu>li>a,
+label {
+	font-weight: normal;
+}
+.skin-yellow-light .sidebar-menu>li.active>a {
+    font-weight: 500;
+}
+.table-responsive {
+    overflow-x: inherit;
+}
